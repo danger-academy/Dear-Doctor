@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #60c2a5;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    background-color: #2e2b35;
+    border: 2px solid #ed6d73;
+    color: #ed6d73;
+    margin-bottom: 55px;
+    height: 110px;
+    width: 110px;
+}
+
+#navbaritem {
+    margin: auto;
+    color: #2e2b35;
+    height: 45px;
+    width: 45px;
+}
+
+#home:hover {
+    background-color: #ed6d73;
+    border: 2px solid #2e2b35;
+    color: #2e2b35;
+}
+
+#navbaritem:hover {
+    color: #ed6d73;
+}

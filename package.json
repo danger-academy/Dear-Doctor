@@ -1,0 +1,43 @@
+{
+  "name": "My-Symptoms",
+  "version": "1.0.0",
+  "description": "***\r ## Team Members:\r * Sydney Dunlap\r * Antonio Foushee\r * Laura Shortridge \r * Robert Tarkenton\t\r ***\r ## Project Description:\r Our app will enable people to record their symptoms (and severity), along with their intake of food and liquid. This log can be shared with their healthcare provider.\r We would like to add the ability to track correlations between the symptoms and intake over time.\r ***\r ## Project Requirements:\r * Use a Node and Express Web Server;\r * Be backed by a MySQL Database an ORM (not necessarily Sequelize);\r * Have both GET and POST routes for retrieving and adding new data;\r * Be deployed using Heroku (with Data);\r * Utilize at least one new library, package, or technology that we haven’t discussed;\r * Have a polished frontend / UI;\r * Have folder structure that meets MVC Paradigm;\r * Meet good quality coding standards (indentation, scoping, naming).\r * Must not expose sensitive API key information on the server, see Protecting-API-Keys-In-Node.md\r ***\r ## New technology used:\r * BULMA (CSS)",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified.\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyTepes/My-Symptoms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyTepes/My-Symptoms/issues"
+  },
+  "homepage": "https://github.com/TonyTepes/My-Symptoms#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "bcrypt-nodejs": "0.0.3",
+    "chai": "^4.2.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.1",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "mocha": "^6.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {}
+}

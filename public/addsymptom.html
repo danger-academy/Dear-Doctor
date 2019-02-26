@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/styles/styles.css" media="screen" title="no title" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/styles/greenbackground.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./assets/styles/navbar.css" media="screen" title="no title" charset="utf-8" />
+    <title>Symptoms Page</title>
+</head>
+
+<body class="container has-text-centered has-navbar-fixed-bottom" id="symptombackground">
+    <div class="block logo-image2" id="deardoctorsignup">
+        <img src="../assets/images/deardoctorgray.gif" alt="" id="deardoctor" />
+    </div>
+    <div class="container has-text-centered" id="maincontainer">
+        <div class="block title is-1" id="addsymptomcontainer">
+            <h1>Symptoms</h1>
+        </div>
+        <div class="field is-grouped is-grouped-centered">
+            <div class="control">
+                <input class="input" type="text" placeholder="Enter Symptom Here" id="symptomtext">
+            </div>
+        </div>
+        <div class="field is-grouped is-grouped-centered">
+            <div class="control">
+                <div class="select" id="arrow">
+                    <select id="symptomseverity">
+                        <option value="" disabled selected hidden>Severity</option>
+                        <option id="option0" value="0">Mild</option>
+                        <option id="option1" value="1">Moderate</option>
+                        <option id="option2" value="2">Severe</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <button class="button" id="symptomadd">
+                Add
+            </button>
+        </div>
+    </div>
+    </div>
+    <nav class="navbar is-fixed-bottom" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="add.html" class="navbar-item">
+                <i class="fas fa-plus-square" id="navbaritem"></i>
+            </a>
+            <a href="index.html" class="navbar-item">
+                <i class="fas fa-home" id="home"></i>
+            </a>
+            <a href="diary.html" class="navbar-item">
+                <i class="fas fa-search" id="navbaritem"></i>
+            </a>
+        </div>
+    </nav>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/symptom.js"></script>
+</body>
+
+</html>
